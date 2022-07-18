@@ -1,37 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 body {
-  margin-top:5%;
-  font-family: 'Patrick Hand', cursive;
-}
-#customers {
-  border-collapse: collapse;
-  width: 100%;
-}
-#customers td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-#customers tr:nth-child(even){
-background-color: #f2f2f2;
-}
-#customers tr:hover {
-background-color: #ddd;
-}
-#customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #04AA6D;
-  color: white;
-}
-img {
-  width:28px;
-}
-footer {
-	text-align: center;
-	margin:3%;
-	}
-a {
-	text-decoration:none;
-	color:#04AA6D;
-	}
+        margin-top: 3%;
+      }
+
+      .my-custom-scrollbar {
+        position: relative;
+        height: 200px;
+        overflow: auto;
+      }
+
+      .table-wrapper-scroll-y {
+        display: block;
+      }
+
+      a,
+      a:hover {
+        color: #61B3A3;
+        font-decoration: none;
+      }
+
+      .footer {
+        text-align: center;
+        margin-bottom: 2%;
+      }
